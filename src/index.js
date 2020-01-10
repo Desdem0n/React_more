@@ -4,7 +4,7 @@ import "./index.css";
 const Person = ({img, name, job, children}) => {
     const url = `https://randomuser.me/api/portraits/thumb/men/${img}.jpg`
     return (
-        <article>
+        <article className="person">
             <img src= {url}
              alt="person"
             /> 
@@ -19,7 +19,7 @@ const Person = ({img, name, job, children}) => {
 
 const PersonList = () => {
     return (
-    <section>
+    <section className="person-list">
         <Person img="13" name="John" job="developer" />
         <Person img="69" name="Harry" job="architect" />
         <Person img="10" name="Mobby" job="designer">
