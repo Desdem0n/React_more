@@ -20,12 +20,14 @@ body {
   }
 
   .person {
+    cursor: pointer;
     background: #eeee;
     width: 17rem;
     padding: 1rem;
     margin: 2rem auto;
     border-radius: 0.3rem;
     text-align: center;
+    transition: all 0.3s linear;
   }
 
   .person:hover {
@@ -41,7 +43,7 @@ body {
 
   .person img:hover {
     cursor: pointer;
-    transform: scale(2);
+    transform: scale(2.5);
     margin: 50px;
     transition: all 0.5s linear;
   }
